@@ -12,6 +12,7 @@
     <sprite>sprites\spr_penguin_run</sprite>
     <sprite>sprites\spr_penguin_fall</sprite>
     <sprite>sprites\spr_checkpoint</sprite>
+    <sprite>sprites\spr_arrow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test</background>
@@ -19,12 +20,20 @@
     <background>background\bg_snow</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_options</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_checkpoint</object>
+    <object>objects\obj_menu</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_level</room>
   </rooms>
   <help>
