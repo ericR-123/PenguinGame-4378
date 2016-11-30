@@ -33,6 +33,11 @@ jumpspeed = 7;
 movespeed = 4;
 
 facing = 1;
+
+if(global.checkpointR == room){
+    x = global.checkpointx;
+    y = global.checkpointy;
+}
 </string>
           </argument>
         </arguments>
@@ -111,6 +116,10 @@ else {
     else sprite_index = spr_penguin_fall;
 }
 
+if (place_meeting(x,y, obj_death_wall))
+{
+    scr_death();
+}
 </string>
           </argument>
         </arguments>

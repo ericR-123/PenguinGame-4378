@@ -12,16 +12,20 @@
     <sprite>sprites\spr_penguin_run</sprite>
     <sprite>sprites\spr_penguin_fall</sprite>
     <sprite>sprites\spr_checkpoint</sprite>
+    <sprite>sprites\spr_death_wall</sprite>
     <sprite>sprites\spr_arrow</sprite>
+    <sprite>sprites\spr_level_1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test</background>
     <background>background\bg_snowfalling</background>
     <background>background\bg_snow</background>
+    <background>background\bg_2048_snow</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_death.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_options</font>
@@ -31,10 +35,13 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_menu</object>
+    <object>objects\obj_level_1</object>
+    <object>objects\obj_death_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level</room>
+    <room>rooms\rm_level_1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
