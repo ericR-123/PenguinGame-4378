@@ -15,6 +15,7 @@
     <sprite>sprites\spr_death_wall</sprite>
     <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_level_1</sprite>
+    <sprite>sprites\spr_enemy1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_test</background>
@@ -37,6 +38,7 @@
     <object>objects\obj_menu</object>
     <object>objects\obj_level_1</object>
     <object>objects\obj_death_wall</object>
+    <object>objects\obj_enemy1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
