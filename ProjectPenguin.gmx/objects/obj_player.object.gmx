@@ -122,6 +122,10 @@ if (place_meeting(x,y, obj_death_wall))
 {
     scr_death();
 }
+
+if(place_meeting(2025,y,obj_player)) {
+    instance_create(x,y,obj_fade);
+}
 </string>
           </argument>
         </arguments>
